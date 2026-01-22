@@ -1,0 +1,19 @@
+# Ignorar variables de entorno
+.env
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar notebooks temporales
+.ipynb_checkpoints/
+
+# Ignorar archivos de configuración locales
+*.log
+*.tmp
+
+# Ignorar entornos virtuales
+venv/
+.env*/   # si usas varios .env (dev, prod)
